@@ -1,6 +1,7 @@
 .dbody{
     background-color: #141414;
     color: white;
+  
 }
 
 .navbard {
@@ -25,16 +26,18 @@ input {
     width: 90%;
     background-color: rgb(124, 126, 129);
     padding: 10px;
-    margin:30px;
+    margin-bottom: 10px;
     border-style: hidden;
 }
 
-.button-group button {
+.dovileButton {
  margin:30px;
- display: inline; 
  height: 70px; 
  width: 350px;
  border-radius: 0%;
 }
 
+input::placeholder {
+    color: white;
+}
 
